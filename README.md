@@ -14,7 +14,7 @@ The AI player ("X") will make the very first move, and then automatically make i
 Continue playing moves until one of the players wins or the game ends in a tie.
 
 # Minimax Algorithm
-The AI player's moves are determined using the minimax algorithm. The algorithm exhaustively searches through all possible moves and simulates the game outcome for each move. It assigns scores based on the result of the game (win, loss, or tie) and selects the move with the highest score for the AI player ("X").
+The AI player's moves are determined using the minimax algorithm. The algorithm exhaustively searches through all possible moves and simulates the game outcome for each move. It assigns scores based on the result of the game (win, loss, or tie) and selects the move with the highest score for the AI player ("X"). My explanations of the logic are commented throughout.
 
 # My Diagram
 Below I've made a diagram of the algorithm, depicting 1 of 4 possible initial moves from the current game state.
